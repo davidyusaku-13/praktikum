@@ -8,12 +8,11 @@ public class Task1 {
   }
 
   public static int powerRec(int a, int b) {
-    int tmp = a;
-    for (int i = 0; i < b - 1; i++) {
-      a *= tmp;
-      powerRec(a, b - 1);
+    if (b > 1) {
+      return a * powerRec(a, b - 1);
+    } else {
+      return a;
     }
-    return a;
   }
 
   public static void main(String[] args) {
