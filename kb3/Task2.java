@@ -3,7 +3,7 @@ public class Task2 {
         if (b.equals("LEFT")) {
             System.out.println(a.substring(c, a.length()) + a.substring(0, c));
         } else if (b.equals("RIGHT")) {
-            System.out.println(a.substring(a.length() - c, a.length()) + a.substring(0, a.length() - 3));
+            System.out.println(a.substring(a.length() - c, a.length()) + a.substring(0, a.length() - c));
         }
     }
 
