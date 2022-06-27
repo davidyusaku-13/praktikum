@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class Task2 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
